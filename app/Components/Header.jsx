@@ -1,6 +1,6 @@
 export default function Header() {
     return (
-      <header className="bg-mainDark text-whiteColor h-max w-full py-10 font-Montserrat px-36 flex justify-between">
+      <header className="bg-mainDark text-whiteColor absolute h-max w-full py-10 font-Montserrat px-36 flex justify-between">
         <div className="flex gap-5 text-4xl">
           <h1 className="font-bold">ELEKTRIADA</h1>
           <div className="h-full w-1 bg-whiteColor"></div>
