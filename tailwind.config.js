@@ -20,12 +20,17 @@ module.exports = {
         'Montserrat': ['Montserrat', 'sans-serif']
       },
       animation: {
+        'fadeIn': 'fadeIn 2s ease-in-out forwards',
         'show': 'show 2s ease-in-out forwards',
       },
       keyframes: {
-        show: {
+        fadeIn: {
           '0%': { transform: 'translateY(-100px)', opacity: '0' },
           '100%': { transform: 'translateY(0)', opacity: '1' },
+        },
+        show: {
+          '0%': {opacity: '0' },
+          '100%': {opacity: '1' },
         },
     },
   },
